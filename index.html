@@ -77,27 +77,38 @@
 
                 <section id="portafolio">
                     <h2>Mis mascotas</h2>
-                    <div class="grid-4-columnas">
-                        <div class="card">
-                            <h3>Michi</h3>
-                            <img src="Img/Mascotas/Cat_1.jpg" alt="Michi">
-                            <p>Gato curioso de 2 años, le encanta explorar y jugar con pelotas. Es muy cariñoso con su familia y disfruta de largas siestas al sol.</p>
+                    <div class="carousel-container">
+                        <div class="carousel-slide">
+                            <div class="card">
+                                <h3>Michi</h3>
+                                <img src="Img/Mascotas/Cat_1.jpg" alt="Michi">
+                                <p>Gato curioso de 2 años, le encanta explorar y jugar con pelotas. Es muy cariñoso con su familia y disfruta de largas siestas al sol.</p>
+                            </div>
                         </div>
-                        <div class="card">
-                            <h3>Luna</h3>
-                            <img src="Img/Mascotas/Gato_2.jpg" alt="Luna">
-                            <p>Gatita elegante y tranquila de 3 años. Le fascina observar por la ventana y le gusta dormir.</p>
+                        <div class="carousel-slide">
+                            <div class="card">
+                                <h3>Luna</h3>
+                                <img src="Img/Mascotas/Gato_2.jpg" alt="Luna">
+                                <p>Gatita elegante y tranquila de 3 años. Le fascina observar por la ventana y le gusta dormir.</p>
+                            </div>
                         </div>
-                        <div class="card">
-                            <h3>Max</h3>
-                            <img src="Img/Mascotas/Perro_1.jpg" alt="Max">
-                            <p>Perro juguetón y energético de 4 años. Le encanta salir a pasear y correr en el parque.</p>
+                        <div class="carousel-slide">
+                            <div class="card">
+                                <h3>Max</h3>
+                                <img src="Img/Mascotas/Perro_1.jpg" alt="Max">
+                                <p>Perro juguetón y energético de 4 años. Le encanta salir a pasear y correr en el parque.</p>
+                            </div>
                         </div>
-                        <div class="card">
-                            <h3>Bella</h3>
-                            <img src="Img/Mascotas/Perro_2.jpg" alt="Bella">
-                            <p>Perrita dulce y protectora de 5 años. Ama recibir caricias yjugar a buscar la pelota.</p>
+                        <div class="carousel-slide">
+                            <div class="card">
+                                <h3>Bella</h3>
+                                <img src="Img/Mascotas/Perro_2.jpg" alt="Bella">
+                                <p>Perrita dulce y protectora de 5 años. Ama recibir caricias y jugar a buscar la pelota.</p>
+                            </div>
                         </div>
+                        <button class="carousel-btn prev" onclick="moveSlide(-1)">&#10094;</button>
+                        <button class="carousel-btn next" onclick="moveSlide(1)">&#10095;</button>
+
                     </div>
                 </section>
 
@@ -163,6 +174,7 @@
 
     </div>
 
+    <script src="JS/carousel.js"></script>
 </body>
 
 </html>
