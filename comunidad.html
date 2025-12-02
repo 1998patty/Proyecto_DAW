@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rosa Patricia Lopez Ramirez">
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <title>Comunidad</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="container">
+            <h1>Nuestras Mascotas</h1>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="comunidad.html">Comunidad</a>
+                <a href="login.html">Login</a>
+                <a href="registro.html">Registro</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <div class="container">
+            <section id="comunidad">
+                <h2>Comunidad de Mascotas</h2>
+
+                <!-- Crear publicacion -->
+                <div class="crear-post">
+                    <div class="crear-post-header">
+                        <img src="Img/Usuarios/user1.jpg" alt="Tu perfil" class="profile-pic">
+                        <textarea placeholder="Comparte con nosotros tu momento especial junto a tu mascota..." rows="3"></textarea>
+                    </div>
+                    <div class="crear-post-actions">
+                        <label for="upload-photo" class="btn-upload">
+                            <span>Subir foto</span>
+                            <input type="file" id="upload-photo" accept="image/*" style="display: none;">
+                        </label>
+                        <button class="btn-publicar">Publicar</button>
+                    </div>
+                </div>
+
+                <!-- Feed de publicaciones -->
+                <div class="feed-container">
+
+                    <!-- Post 1 -->
+                    <article class="post">
+                        <div class="post-header">
+                            <img src="Img/Usuarios/user1.jpg" alt="Maria Garcia" class="profile-pic">
+                            <div class="post-info">
+                                <h3>Maria Garcia</h3>
+                                <span class="post-date">Hace 2 horas</span>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <p>Mi gatito Luna disfrutando de su siesta favorita. Es tan adorable cuando duerme al sol!</p>
+                            <img src="Img/Mascotas/Gato_2.jpg" alt="Gatito Luna">
+                        </div>
+                        <div class="post-actions">
+                            <button class="btn-action">Me gusta</button>
+                            <button class="btn-action">Comentar</button>
+                            <button class="btn-action">Compartir</button>
+                        </div>
+                    </article>
+
+                    <!-- Post 2 -->
+                    <article class="post">
+                        <div class="post-header">
+                            <img src="Img/Usuarios/user1.jpg" alt="Carlos Mendoza" class="profile-pic">
+                            <div class="post-info">
+                                <h3>Carlos Mendoza</h3>
+                                <span class="post-date">Hace 5 horas</span>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <p>Max corriendo en el parque! Le encanta jugar con otros perros. Es el mas jugueton de todos.</p>
+                            <img src="Img/Mascotas/Perro_1.jpg" alt="Perro Max">
+                        </div>
+                        <div class="post-actions">
+                            <button class="btn-action">Me gusta</button>
+                            <button class="btn-action">Comentar</button>
+                            <button class="btn-action">Compartir</button>
+                        </div>
+                    </article>
+
+                    <!-- Post 3 -->
+                    <article class="post">
+                        <div class="post-header">
+                            <img src="Img/Usuarios/user1.jpg" alt="Ana Rodriguez" class="profile-pic">
+                            <div class="post-info">
+                                <h3>Ana Rodriguez</h3>
+                                <span class="post-date">Hace 1 dia</span>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <p>Bella esperando pacientemente su cena. Que mirada mas tierna!</p>
+                            <img src="Img/Mascotas/Perro_2.jpg" alt="Perrita Bella">
+                        </div>
+                        <div class="post-actions">
+                            <button class="btn-action">Me gusta</button>
+                            <button class="btn-action">Comentar</button>
+                            <button class="btn-action">Compartir</button>
+                        </div>
+                    </article>
+
+                    <!-- Post 4 -->
+                    <article class="post">
+                        <div class="post-header">
+                            <img src="Img/Usuarios/user1.jpg" alt="Pedro Sanchez" class="profile-pic">
+                            <div class="post-info">
+                                <h3>Pedro Sanchez</h3>
+                                <span class="post-date">Hace 2 dias</span>
+                            </div>
+                        </div>
+                        <div class="post-content">
+                            <p>Michi explorando cada rincon de la casa. Es tan curioso! Siempre encuentra los mejores escondites.</p>
+                            <img src="Img/Mascotas/Cat_1.jpg" alt="Gato Michi">
+                        </div>
+                        <div class="post-actions">
+                            <button class="btn-action">Me gusta</button>
+                            <button class="btn-action">Comentar</button>
+                            <button class="btn-action">Compartir</button>
+                        </div>
+                    </article>
+
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="contacto">
+        <div class="container">
+            <div>
+                <h3>Porque este projecto?</h3>
+                <p>Me gustan los gatos y perros y me gustaria una pagina donde pueda compartir mi aficion y conocimientos sobre ellos.</p>
+            </div>
+            <div>
+                <h3>Que pienso que contendra mi pagina</h3>
+                <p><a href="#">Subir imagenes</a></p>
+                <p><a href="#">Registrar mascotas</a></p>
+                <p><a href="#">Post de mascotas</a></p>
+            </div>
+            <div>
+                <h3>Contactame</h3>
+                <p>Email: rosa.lopezr@ug.edu.ec</p>
+                <p>Tel: 098 562 5037</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
